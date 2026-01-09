@@ -140,6 +140,8 @@ Relevance to SOC: Monitoring for Multi Factor Authentication is an important pri
 
 **Answer:** E5-2676 v3 @2.40 GHZ
 
+![Alt text](Picture15.png)
+
 **Relevance to SOC:** Asset Management and Anomaly Detection entail the ability to identify hardware specifications. An analyst is able to detect unauthorized resource usage once he is able to identify the baseline CPU. A good example is when a web server all of a sudden indicates a full 100% CPU utilization on a separate architecture, a container escape or the deployment of a crypto mining binary by an attacker could be indicated.
 
 **Q203 and Q204: The S3 Public Exposure Incident**
