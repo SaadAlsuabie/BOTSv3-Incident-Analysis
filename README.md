@@ -100,6 +100,8 @@ The following steps were followed during the process:
 
 - **Splunk Restart:** This ensures that splunk has been initialized to the new index.
 
+![Alt text](Picture10.png)
+
 **Data Validation**
 
 The following validation metrics were utilized during the process:
