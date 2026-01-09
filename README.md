@@ -87,6 +87,8 @@ The following steps were followed during the process:
 
 - **Preparation:** I downloaded the BOTSv3 data from the official GitHub account through the provided link. I then followed the stated steps while installing the additional packages that were critical to the application.
 
+![Alt text](Picture7.png)
+
 - **Deployment:** In this stage I extracted the dataset directly into the directory that contains Splunk using the following script: sudo tar -zxvf botsv3_data_set.tgz -C /opt/splunk/etc/apps/
 
 - **Permission:** This step entails ensuring the splunk user has access to the newly added files, this helps to prevent errors from the database and lock file issues, this was achieved using the following command: sudo chown -R splunk:splunk /opt/splunk/etc/apps/botsv3_data_set
