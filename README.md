@@ -58,6 +58,7 @@ The first step in simulating a SOC Infrastructure that is professional entails s
 This installation was done on Ubuntu Desktop 22.0.4 LTS, this was chosen to ensure that Splunk remains stable and compatible with its dependencies.
 
 The first step entailed acquiring the Splunk Enterprise .deb package from the official website.
+Picture1.png
 
 - I then used the Debian manager to execute the installation
 
