@@ -148,6 +148,8 @@ Relevance to SOC: Monitoring for Multi Factor Authentication is an important pri
 
 **Question: Bud accidentally makes an S3 bucket publicly accessible. What is the Event ID of the API call, and what is the Bucket Name?**
 
+![Alt text](Picture16.png)
+
 **Answer (Event ID):** ab45689d-69cd-41e7-8705-5350402cf7a
 
 **Answer (Bucket Name):** frothlywebcode
