@@ -114,6 +114,8 @@ The following validation metrics were utilized during the process:
 
 - **Source Integrity:** I verified the presence of critical source types like the AWS cloud trail. aws:cloudtrail, S3AccessLogs, and WinHostMon using: index=botsv3 | stats count by sourcetype
 
+![Alt text](Picture13.png)
+
 - **Time Synchronization:** I used the UTC+0 time zone to ensure that the events were correctly synchronized.
 
 **Guided Questions: 200-Level SOC Analysis**
