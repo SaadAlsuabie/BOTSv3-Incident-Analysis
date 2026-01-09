@@ -95,6 +95,9 @@ The following steps were followed during the process:
 
 - **Permission:** This step entails ensuring the splunk user has access to the newly added files, this helps to prevent errors from the database and lock file issues, this was achieved using the following command: sudo chown -R splunk:splunk /opt/splunk/etc/apps/botsv3_data_set
 
+
+![Alt text](Picture9.png)
+
 - **Splunk Restart:** This ensures that splunk has been initialized to the new index.
 
 **Data Validation**
