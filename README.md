@@ -108,6 +108,10 @@ The following validation metrics were utilized during the process:
 
 - **Source Confirmation:** To confirm the source I ran the following query to ensure that the presence of the events: **index=botsv3 earliest=0**
 
+![Alt text](Picture11.png)
+
+![Alt text](Picture12.png)
+
 - **Source Integrity:** I verified the presence of critical source types like the AWS cloud trail. aws:cloudtrail, S3AccessLogs, and WinHostMon using: index=botsv3 | stats count by sourcetype
 
 - **Time Synchronization:** I used the UTC+0 time zone to ensure that the events were correctly synchronized.
