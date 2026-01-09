@@ -75,6 +75,8 @@ The first step entailed acquiring the Splunk Enterprise .deb package from the of
 
 ![Alt text](Picture5.png)
 
+![Alt text](Picture6.png)
+
 **Setup Justification:** The installation on a virtualized environment reduces the attack surface and the utilization of resources of the Security Information and Management (SIEM) host. The internal adapters of the virtual environment protect the BOTSv3 dataset by isolating it from the public network hence ensuring a simulation that is air-gapped SOC environment and secured.
 
 Data Ingestion
