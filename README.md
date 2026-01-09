@@ -66,6 +66,8 @@ The first step entailed acquiring the Splunk Enterprise .deb package from the of
 
 ![Alt text](Picture3.png)
 
+![Alt text](Picture4.png)
+
 - Boot Persistence: Ensured Splunk could automatically initialize upon the reboot of the system, this was through the following script: sudo /opt/splunk/bin/splunk enable boot-start
 
 
