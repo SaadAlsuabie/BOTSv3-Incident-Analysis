@@ -130,6 +130,8 @@ Case Set: Cloud Integrity and Asset Inventory
 
 Splunk Query to Use: index=botsv3 sourcetype="aws:cloudtrail" | table userIdentity.sessionContext.attributes.mfaAuthenticated, eventName, username
 
+![Alt text](Picture14.png)
+
 Relevance to SOC: Monitoring for Multi Factor Authentication is an important priority for Detection. In the Frothly environment, the Taedonggang group took advantage of those accounts that did not have multi factor authentication. It is very important for a SOC to have a real-time alert for console logins or API calls that are high-privilege like when creating access keys.
 
 **Question 202: Web Server Hardware Baseline**
