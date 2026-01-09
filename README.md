@@ -91,6 +91,8 @@ The following steps were followed during the process:
 
 - **Deployment:** In this stage I extracted the dataset directly into the directory that contains Splunk using the following script: sudo tar -zxvf botsv3_data_set.tgz -C /opt/splunk/etc/apps/
 
+![Alt text](Picture7.png)
+
 - **Permission:** This step entails ensuring the splunk user has access to the newly added files, this helps to prevent errors from the database and lock file issues, this was achieved using the following command: sudo chown -R splunk:splunk /opt/splunk/etc/apps/botsv3_data_set
 
 - **Splunk Restart:** This ensures that splunk has been initialized to the new index.
